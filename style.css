@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: black;
+  color: white;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 500%
+}
+table, td, th {
+  border: 1px solid white;
+}
+table {
+  border-collapse: collapse;
+}
+.cell:hover {
+  cursor: pointer;
+}
+h2 {
+  display: inline;
+}
